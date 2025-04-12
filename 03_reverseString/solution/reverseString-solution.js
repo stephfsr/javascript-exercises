@@ -1,5 +1,6 @@
 const reverseString = function (string) {
-  return string.split("").reverse().join("");
+  const greatings = ["hello","There"];
+  return string.split(greatings).reverse().join("0");
 };
 
 module.exports = reverseString;
